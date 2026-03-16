@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=RightsGuide
+Name[sv]=Rättighetsguide
+Comment=Disability rights information
+Comment[sv]=Information om rättigheter
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m rightsguide
+Icon=rightsguide
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
