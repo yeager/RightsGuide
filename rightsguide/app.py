@@ -74,7 +74,7 @@ class RightsGuideWindow(Adw.ApplicationWindow):
 
         self.title_widget = Adw.WindowTitle(
             title=_("RightsGuide",
-            subtitle=_("Guide till dina rättigheter",
+            subtitle=_("Guide to your rights",
         )
         header.set_title_widget(self.title_widget)
         self.main_box.append(header)
@@ -113,7 +113,7 @@ class RightsGuideWindow(Adw.ApplicationWindow):
 
         # Välkomsttext
         welcome = Gtk.Label(
-            label=_("Välkommen!",
+            label=_("Welcome!",
             css_classes=["title-1"],
         )
         box.append(welcome)

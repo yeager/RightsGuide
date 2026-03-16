@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the rightsguide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: rightsguide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:31+0100\n"
+"POT-Creation-Date: 2026-03-16 12:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /tmp/RightsGuide/rightsguide/app.py:77
-msgid "Guide till dina rättigheter"
+#: rightsguide/app.py:77
+msgid "Guide to your rights"
 msgstr ""
 
-#: /tmp/RightsGuide/rightsguide/app.py:76
-msgid "RightsGuide"
+#: rightsguide/app.py:116
+msgid "Welcome!"
 msgstr ""
 
-#: /tmp/RightsGuide/rightsguide/app.py:116
-msgid "Välkommen!"
-msgstr ""
-
-#: /tmp/RightsGuide/rightsguide/app.py:221
+#: rightsguide/app.py:221
 msgid "✅"
+msgstr ""
+
+#: rightsguide/app.py:76
+msgid "RightsGuide"
 msgstr ""

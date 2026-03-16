@@ -1,0 +1,6 @@
+
+msgid "Guide to your rights"
+msgstr "Guide till dina rättigheter"
+
+msgid "Welcome!"
+msgstr "Välkommen!"
