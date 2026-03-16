@@ -5,6 +5,7 @@ import os
 import sys
 
 import gi
+from rightsguide.i18n import _
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
@@ -72,8 +73,8 @@ class RightsGuideWindow(Adw.ApplicationWindow):
         header.pack_start(self.back_btn)
 
         self.title_widget = Adw.WindowTitle(
-            title="RightsGuide",
-            subtitle="Guide till dina rättigheter",
+            title=_("RightsGuide",
+            subtitle=_("Guide till dina rättigheter",
         )
         header.set_title_widget(self.title_widget)
         self.main_box.append(header)
@@ -112,7 +113,7 @@ class RightsGuideWindow(Adw.ApplicationWindow):
 
         # Välkomsttext
         welcome = Gtk.Label(
-            label="Välkommen!",
+            label=_("Välkommen!",
             css_classes=["title-1"],
         )
         box.append(welcome)
@@ -217,7 +218,7 @@ class RightsGuideWindow(Adw.ApplicationWindow):
             btn_box = Gtk.Box(
                 orientation=Gtk.Orientation.HORIZONTAL, spacing=12
             )
-            q_icon = Gtk.Label(label="✅" if is_read else "❓")
+            q_icon = Gtk.Label(label=_("✅" if is_read else "❓")
             btn_box.append(q_icon)
             q_label = Gtk.Label(label=qa["q"], xalign=0, wrap=True)
             q_label.set_hexpand(True)

@@ -1,3 +1,4 @@
+from rightsguide.i18n import _
 """Fördefinierad data för RightsGuide – frågor, svar och kategorier."""
 
 CATEGORIES = [
