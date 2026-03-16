@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rightsguide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:52+0100\n"
+"POT-Creation-Date: 2026-03-16 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: rightsguide/app.py:77
+#: rightsguide/app.py:77 rightsguide/app.py:323
 msgid "Guide to your rights"
 msgstr ""
 

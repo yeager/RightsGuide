@@ -320,7 +320,7 @@ class RightsGuideWindow(Adw.ApplicationWindow):
             if prev == "home":
                 self.back_btn.set_visible(False)
                 self.title_widget.set_title("RightsGuide")
-                self.title_widget.set_subtitle("Guide till dina rättigheter")
+                self.title_widget.set_subtitle(_("Guide to your rights"))
             elif "_q" not in prev:
                 cat = next(c for c in CATEGORIES if c["id"] == prev)
                 self.title_widget.set_title(cat["title"])
